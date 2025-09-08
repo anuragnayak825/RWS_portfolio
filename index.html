@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body class="bg-gray-100">
+    <!-- HEADER -->
+    <header id="header" class="s bg-white s z-50 ">
+        <nav id="NavBar" class=" w-full lg:max-w-7xl mx-auto flex items-center justify-between px-[10px] lg:px-6 py-4">
+            <!-- Logo -->
+            <div class="flex items-center space-x-3">
+                <img src="imges/rws-logo.webp" alt="Logo" class="h-14 w-auto" />
+
+            </div>
+
+            <!-- Nav Links -->
+            <ul class="hidden md:flex space-x-8 text-lg font-medium text-gray-700">
+                <li class="hover:text-[#005B82] cursor-pointer transition">Home</li>
+                <li class="hover:text-[#005B82] cursor-pointer transition">About</li>
+                <li class="hover:text-[#005B82] cursor-pointer transition">Services</li>
+                <li class="hover:text-[#005B82] cursor-pointer transition">Contact</li>
+            </ul>
+
+            <!-- Button -->
+            <button
+                class="px-6 py-2 bg-[#005B82] text-white rounded-full font-semibold text-lg hover:bg-[#004466] transition">
+                Contact Us
+            </button>
+        </nav>
+    </header>
+    <!-- HEADER -->
+
+
+
+    <!-- HERO SECTIONS  -->
+
+
+    <section id="Hero_section" class=" box-container ">
+        <div class=" box box-1 ">
+            <h1 class=" ">Complete Web Design & Development</h1>
+            <p class="mt-6">Say goodbye to sleepless nights over counterproductive communications between service
+                providers, and no
+                more overbilling-related nightmares for services you’re not sure you need but you’re sure you have to
+                pay for.</p>
+            <button class="mt-8"> <i class="fa-solid fa-phone"></i> Book a Free Consulation</button>
+        </div>
+        <div class=" box box-2   ">
+            <dotlottie-wc src="https://lottie.host/8d17b555-f2d5-4c00-bbb7-c7e39ec9a0ae/u3DKbfeLpo.lottie"
+                style="width: 100%; height: 100%; scale: 1; position: absolute; inset: 0;" speed="1" autoplay loop>
+            </dotlottie-wc>
+        </div>
+    </section>
+
+    <!-- HERO SECTIONS  -->
+
+
+    <!-- ABOUT SECTION -->
+    <section id="About" class="about-section  box-container ">
+        <div class="box box-2 ">
+            <dotlottie-wc class="dotlottie"
+                src="https://lottie.host/bf8efcb8-40c1-4c69-bbcc-d6ce4de9ce42/UW0BfNXWQb.lottie" style="width: 100%; height: 100%; scale: 1; position: absolute; inset: 0; @media (min-width: 640px) and (max-width: 767px) {
+                    position: relative;
+                }" speed="1" autoplay loop>
+            </dotlottie-wc>
+        </div>
+        <div class="box box-1  ">
+            <h1>Choose the Perfect <span class="Website_Solution">Website Solution</span> for Your Business</h1>
+
+            <p>
+                At our company, we specialize in creating stunning, responsive, and user-friendly websites that help
+                businesses stand out online. Our expert team combines creativity with the latest web technologies to
+                deliver websites that not only look amazing but also drive results. With a proven track record in Noida,
+                we are committed to providing customized solutions that match your business goals and budget.
+            </p>
+
+            <button>Talk to Our Experts</button>
+        </div>
+
+    </section>
+    <!-- ABOUT SECTION -->
+
+
+
+    <!-- SERVICE SECTION  -->
+    <section id="service" class="service-section ">
+        <h1 class="mb-[70px] ">Our Core Services</h1>
+
+        <div class="service-container">
+            <div id="sub_services-1" class="service">
+                <div class="icon-circle circle-1">
+                    <img src="imges/web-development_17365497.svg" alt="" width="100px" height="100px">
+                </div>
+                <h1 class="">Website Development</h1>
+                <p class="text-justify">
+                    Our web development services focus on creating engaging, mobile-friendly, and high-performing
+                    websites that convert visitors into customers.
+                </p>
+                <button class="ser-btn mt-4">
+                    Build My Website Today
+                </button>
+            </div>
+            <div id="sub_services-2" class="service">
+                <h1>E-commerce Development</h1>
+                <div class="icon-circle circle-1">
+                    <img src="imges/sustainable-business_12585857.png" alt="" width="100px" height="100px">
+                </div>
+                <p class="text-justify">
+                    E-commerce solutions with seamless payment gateways, intuitive design, scalable architecture, and
+                    optimized experiences to drive conversions.
+                </p>
+                <button class="ser-btn mt-4">
+                    Build My Website Today
+                </button>
+            </div>
+            <div id="sub_services-3" class="service">
+                <h1>Custom Web Development</h1>
+                <div class="icon-circle circle-1">
+                    <img src="imges/programming_18567284.svg" alt="" width="100px" height="100px">
+                </div>
+                <p class="text-justify">
+                    Delivering engaging, user-friendly, responsive websites to elevate your brand with professional
+                    website development services.
+                </p>
+                <button class="ser-btn mt-4">
+                    Build My Website Today
+                </button>
+            </div>
+            <div id="sub_services-4" class="service">
+                <h1>WordPress Development</h1>
+                <div class="icon-circle circle-1">
+                    <img src="imges/wikipedia_3044147.svg" alt="" width="100px" height="100px">
+                </div>
+                <p class="text-justify">
+                    Custom WordPress development services that deliver responsive, SEO-friendly, and easy-to-manage
+                    websites tailored to your business needs.
+                </p>
+                <button class="ser-btn mt-4">
+                    Build My Website Today
+                </button>
+            </div>
+            <!-- <div id="sub_services-5" class="service">
+                <h1>App development</h1>
+            </div> -->
+        </div>
+    </section>
+    <!-- SERVICE SECTION  -->
+
+
+    <!-- CTA -->
+    <section id="CTA-section">
+        <div class="cta-bar">
+            <div class="cta-content">
+                <h1>Let's Build Your Next Project With Us</h1>
+                <p>
+                    Need a new website or want to upgrade your existing one? Share your idea with us.
+                    We are here to guide you thoroughly. Let's connect & get started.
+                </p>
+                <button>Contact Now</button>
+
+                <!-- <div class="cta-info">
+                    <div class="info-item">
+                        <i class="fa fa-phone-alt"></i>
+                        <p>+91 82870 39634</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa fa-envelope"></i>
+                        <p>abc@gmail.com</p>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- CTA -->
+
+
+
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <h1>My Portfolio</h1>
+
+        <!-- Filter Buttons -->
+        <div class="filter-btns">
+            <button class="active" onclick="filterPortfolio('all', event)">All</button>
+            <button onclick="filterPortfolio('Aircon', event)">Web Design</button>
+            <button onclick="filterPortfolio('legal', event)">App Design</button>
+            <button onclick="filterPortfolio('realestate', event)">E-commerce</button>
+            <button onclick="filterPortfolio('hospital', event)">WordPress</button>
+        </div>
+
+        <!-- Portfolio Grid (Empty, JS se fill hoga) -->
+        <div class="portfolio-container" id="portfolio-container"></div>
+    </section>
+    <!-- Portfolio -->
+
+    <!-- FAQ Line  -->
+    <section id="FAQ" class="FAQ-container ">
+        <div class="faq-wrapper">
+
+            <div class="FAQ-Box Box">
+                <div class="fa-h">
+                    <h1>FAQs</h1>
+                    <p>Common Questions About Web Design & Development</p>
+                </div>
+
+                <div class="faq-que-con ">
+                    <!-- FAQ item -->
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h2>What is the cost of developing a website?</h2>
+                            <i class="fa fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                The price of a website varies according to its type, complexity, and
+                                functionality. A basic dynamic business website can begin from
+                                ₹20,000–₹25,000 and goes higher for ecommerce/custom projects.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h2>How long does it take to build a website?</h2>
+                            <i class="fa fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                A simple site may take 2–3 weeks, while a custom solution with
+                                advanced features may require 1–3 months.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h2>Do you provide ongoing support?</h2>
+                            <i class="fa fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                Yes! We offer maintenance, updates, and support plans to keep your
+                                website running smoothly.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h2>How long does it take to build a website?</h2>
+                            <i class="fa fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                A simple site may take 2–3 weeks, while a custom solution with
+                                advanced features may require 1–3 months.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h2>What is the cost of developing a website?</h2>
+                            <i class="fa fa-plus faq-icon"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>
+                                The price of a website varies according to its type, complexity, and
+                                functionality. A basic dynamic business website can begin from
+                                ₹20,000–₹25,000 and goes higher for ecommerce/custom projects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Image -->
+            <div class="faq-image">
+                <div class="price-sticker">
+                    <span class="price">Website Starting</span>
+                    <span class="offer">From ₹9,999/-</span>
+                </div>
+                <img src="https://img.freepik.com/free-vector/faq-concept-illustration_114360-5249.jpg?w=740"
+                    alt="FAQ Illustration" />
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- FAQ Line  -->
+
+
+    <!-- REVIew ⭐⭐⭐⭐⭐-->
+    <!-- REVIew ⭐⭐⭐⭐⭐-->
+    <section class="review-section">
+        <div class="review-header ">
+            <h2>What Our Clients Say</h2>
+            <p>Real experiences from businesses who trusted us</p>
+
+            <!-- Navigation Buttons (Top Right) -->
+            <!-- <div class="review-nav">
+                <button class="review-btn swiper-button-prev"><i class="fa fa-caret-left"></i></button>
+                <button class="review-btn swiper-button-next"><i class="fa fa-caret-right"></i></button>
+            </div> -->
+        </div>
+
+        <!-- Swiper Container -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- Review Cards -->
+                <div class="swiper-slide review-card">
+                    <h3>Rohit Sharma</h3>
+                    <span>Startup Founder</span>
+                    <p>“Amazing experience! The team delivered our website on time with stunning design and perfect
+                        functionality.”</p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="swiper-slide review-card">
+                    <h3>Priya Verma</h3>
+                    <span>Business Owner</span>
+                    <p>“Professional team with great support. They helped us build our e-commerce store from scratch.”
+                    </p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="swiper-slide review-card">
+                    <h3>Ankit Nayak</h3>
+                    <span>Freelancer</span>
+                    <p>“Excellent service with modern design sense. My portfolio website looks very unique and
+                        professional.”</p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="swiper-slide review-card">
+                    <h3>Neha Gupta</h3>
+                    <span>Entrepreneur</span>
+                    <p>“Great team to work with, they understood my vision and delivered exactly what I wanted.”</p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="swiper-slide review-card">
+                    <h3>Vikas Kumar</h3>
+                    <span>Marketing Head</span>
+                    <p>“Very professional and responsive. Our company website is fast, modern and user-friendly.”</p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="swiper-slide review-card">
+                    <h3>Anjali Singh</h3>
+                    <span>Fashion Blogger</span>
+                    <p>“Loved the creative designs and user-friendly features. Highly recommend this team.”</p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="swiper-slide review-card">
+                    <h3>Rajesh Patel</h3>
+                    <span>Agency Owner</span>
+                    <p>“They transformed our old site into a modern, sleek platform. Clients love it!”</p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+
+                <div class="swiper-slide review-card">
+                    <h3>Simran Kaur</h3>
+                    <span>Photographer</span>
+                    <p>“Super easy team to work with. My portfolio site looks clean and professional.”</p>
+                    <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                </div>
+            </div>
+
+            <!-- Pagination Dots BELOW slider -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+
+    <section class="footer-section relative">
+        <img src="imges/32754362_29m_2_ecer_background_59.jpg" alt=""
+            class="w-full h-[350px] md:h-[300px] object-cover bg-fixed">
+        <div class=" footer-contain-box ">
+            <div class="img-div">
+                <img src="imges/rws-logo.webp" alt="Logo" class=" " />
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus aperiam suscipit ipsum dolor
+                fugiat
+                earum optio beatae nemo praesentium sequi dignissimos iste, id repudiandae, <br class="footer-br"> quis
+                est quae
+                distinctio?
+                Recusandae, doloribus!
+            </p>
+            <div class="information-div">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>+91 8287 0396 34</span>
+                </div>
+                <div>
+                    <i class="fa fa-mail-bulk"></i>
+                    <span>anurag@gmail.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="index.js"></script>
+    <script type="module" src="portfolio.js"></script>
+</body>
+
+</html>
